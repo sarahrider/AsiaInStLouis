@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sarahrider.github.io/AsiaInStLouis/manifests/stlouis-topo-1912.json",
+  "@type" : "sc:Manifest",
+  "label" : "St. Louis 1912 Topographical Survey Map",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "U.S. Geological Survey (1,241K)\nSurveyed in 1903. Edition of April 1904, reprinted Nov. 1912, with corrections.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Available publicly online through the University of Texas at Austin Libraries, Perry Castenada Library Map Collections. IIIF Manifest created by Sarah Rider, September 5, 2023 and available as Creative Commons.",
+  "sequences" : [ {
+    "@id" : "http://ef5fc1f3-618b-4376-be90-933f8889a624",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://58e5730a-5e07-4e07-9e19-f5766ab2f528",
+      "@type" : "sc:Canvas",
+      "label" : "St. Louis 1912 Topographical Survey Map",
+      "height" : 3156,
+      "width" : 4954,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9367c599-0689-423e-b6e2-c7aad1904022",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/pclmaps-topo-mo-saint-louis-1903/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/pclmaps-topo-mo-saint-louis-1903",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3156,
+          "width" : 4954
+        },
+        "on" : "http://58e5730a-5e07-4e07-9e19-f5766ab2f528"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
